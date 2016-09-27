@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="hello_message">Nomaste!</string>
+    <string name="ButtonText">Main ek button</string>
+    <string name="title_activity_login">LoginKoro</string>
+    <string name="login_message">LoginIn</string>
+    <string name="password_message">Password Likkho</string>
+
+</resources>
