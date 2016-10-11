@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab 1</string>
-    <string name="hello_message">Nomaste!</string>
-    <string name="ButtonText">Main ek button</string>
-    <string name="title_activity_login">LoginKoro</string>
-    <string name="login_message">LoginIn</string>
-    <string name="password_message">Password Likkho</string>
+<string name="app_name">Lab 1</string>
+<string name="hello_message">Nomaste!</string>
+<string name="ButtonText">Main Ek Button</string>
+
+<string name="title_activity_login">LoginActivity</string>
+<string name="login">Login Koro</string>
+<string name="loginhinttext">login num</string>
+<string name="pwd">Password</string>
+<string name="pwdhinttext">Password Likkho</string>
+<string name="login_default">example@domain.com</string>
+<string name="login_key">Default Email</string>
+
+<string name="title_activity_list_item">ListItemActivity</string>
+<string name="btn1Text">Button Ek</string>
+<string name="btn2Text">Button Do</string>
+<string name="btnlogin">Login</string>
+<string name="SwitchText">Kuch Enable Koro</string>
+
+<string name="btnchat">Chat Shuru</string>
+<string name="title_activity_chat_window">ChatKhirki</string>
+
+<string name="edithinttextchatw">Text Thick Koro</string>
+<string name="btnsend">Send Koro</string>
 
 </resources>
+

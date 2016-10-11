@@ -7,48 +7,44 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.munirafardous.lab1.ListItemsActivity">
+    tools:context="com.example.munirafardous.lab1.LoginActivity"
+    tools:showIn="@layout/activity_list_items"
+    >
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:columnCount="2"
         android:rowCount="2"
-        android:id="@+id/gridLayout"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentTop="true"></GridLayout>
+        >
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button 1"
-        android:id="@+id/radioButton"
-        android:layout_below="@+id/gridLayout"
-        android:layout_alignParentStart="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn1Text"
+            android:checked="false"
+            android:visibility="visible" />
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button 2"
-        android:id="@+id/radioButton2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New CheckBox"
+            android:id="@+id/CB"
+            />
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enable Something"
-        android:id="@+id/switch1"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SwitchText"
+            android:id="@+id/SB"
+            />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:background="@android:drawable/btn_star_big_on" />
-
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn2Text"
+            android:background="@android:drawable/btn_star_big_on"
+            android:id="@+id/IB"/>
+    </GridLayout>
 </RelativeLayout>

@@ -2,7 +2,26 @@
     <string name="app_name">Lab 1</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
+
     <string name="title_activity_login">LoginActivity</string>
-    <string name="login_message">Login</string>
-    <string name="password_message">Password</string>
-    </resources>
+    <string name="login">Login</string>
+    <string name="loginhinttext">login name</string>
+    <string name="pwd">Password</string>
+    <string name="pwdhinttext">Password here</string>
+    <string name="login_default">example@domain.com</string>
+    <string name="login_key">Default Email</string>
+
+    <string name="title_activity_list_item">ListItemActivity</string>
+    <string name="btn1Text">Button 1</string>
+    <string name="btn2Text">Button 2</string>
+    <string name="btnlogin">Login</string>
+    <string name="SwitchText">Enable Something</string>
+
+    <string name="btnchat">Start Chat</string>
+    <string name="title_activity_chat_window">ChatWindow</string>
+
+    <string name="edithinttextchatw">Edit Text</string>
+    <string name="btnsend">Send</string>
+
+</resources>
+

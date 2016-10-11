@@ -10,33 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.munirafardous.lab1.LoginActivity"
-    android:orientation="vertical"
-    tools:showIn="@layout/activity_login">
+    tools:showIn="@layout/activity_login"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_message"
+        android:text="@string/login" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/loginhinttext"
+        android:inputType="textEmailAddress"
+        android:id="@+id/TE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pwd"
         android:id="@+id/textView2" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="login name"
-        android:id="@+id/editText"
-        android:inputType="textEmailAddress" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/password_message"
-        android:id="@+id/textView3" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:hint="@string/pwdhinttext"
         android:inputType="textPassword" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnlogin"
+        android:id="@+id/button2" />
 
 </LinearLayout>
