@@ -21,7 +21,9 @@
     <string name="title_activity_chat_window">ChatWindow</string>
 
     <string name="edithinttextchatw">Edit Text</string>
-    <string name="btnsend">Send</string>
+    <string name="btnsend">SEND</string>
+
+
 
 </resources>
 
