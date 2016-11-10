@@ -23,6 +23,12 @@
     <string name="edithinttextchatw">Edit Text</string>
     <string name="btnsend">SEND</string>
 
+    <string name="weatherbutton">Weather Forecast</string>
+    <string name="title_activity_weather_forecast">WeatherForecast</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
+    <string name="appBarTitle">Detailed Message</string>
+
 
 
 </resources>
