@@ -22,7 +22,7 @@
 
     <string name="edithinttextchatw">Edit Text</string>
     <string name="btnsend">SEND</string>
-
+    <string name="weatherButtonText">Weather Forecast</string>
 
 
 </resources>
